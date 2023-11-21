@@ -25,7 +25,8 @@ implementation
 procedure TMain.FormCreate(Sender: TObject);
 begin
   {$REGION 'Default'}
-    Application.Title := 'LK - SIGN';
+    //Application.Title := 'LK - SIGN';
+    Application.Title := 'LK - SIGN APP';
 
     Self.Caption := Application.Title;
   {$ENDREGION}

@@ -14,4 +14,12 @@ object Main: TMain
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
+  object Panel1: TPanel
+    Left = 40
+    Top = 40
+    Width = 185
+    Height = 41
+    Caption = 'Panel1'
+    TabOrder = 0
+  end
 end

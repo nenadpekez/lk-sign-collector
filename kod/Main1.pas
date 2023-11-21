@@ -4,10 +4,11 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
 
 type
   TMain = class(TForm)
+    Panel1: TPanel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -29,6 +30,7 @@ begin
     Application.Title := 'LK - SIGN APP';
 
     Self.Caption := Application.Title;
+    Self.Panel1.Caption := 'TEST';
   {$ENDREGION}
 end;
 

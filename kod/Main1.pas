@@ -31,6 +31,8 @@ begin
 
     Self.Caption := Application.Title;
     Self.Panel1.Caption := 'TEST';
+    Self.Panel1.Align := alTop;
+    Self.Panel1.AlignWithMargins := True;
   {$ENDREGION}
 end;
 

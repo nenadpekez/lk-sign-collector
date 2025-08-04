@@ -41,6 +41,8 @@ begin
   //EidStartup(API_VERSION);
 
   {$REGION 'Default'}
+
+
     Application.Title := chr(8482) +' SIGN COLLECTOR';
 
     Self.Caption := Application.Title;

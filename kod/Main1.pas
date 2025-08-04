@@ -38,7 +38,7 @@ uses Jpeg;
 
 procedure TMain.FormCreate(Sender: TObject);
 begin
-  EidStartup(API_VERSION);
+  //EidStartup(API_VERSION);
 
   {$REGION 'Default'}
     Application.Title := chr(8482) +' SIGN COLLECTOR';

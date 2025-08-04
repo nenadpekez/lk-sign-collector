@@ -42,7 +42,7 @@ begin
 
   {$REGION 'Default'}
 
-
+  //test
     Application.Title := chr(8482) +' SIGN COLLECTOR';
 
     Self.Caption := Application.Title;
